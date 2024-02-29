@@ -1,0 +1,2020 @@
+body{
+	background-image: url(../images/backgroundimage.jpg);
+	background-size: 100%;
+}
+
+header{
+	height: 100vh;
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto; 
+}
+
+h1{
+
+font-family: semplicitapro, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+}
+
+.firstLine{
+	background-color:#f7a0d8;
+
+	position: absolute;
+	left: 50%;
+
+	animation: divblink linear infinite 2s;
+}
+
+.secondLine{
+	background-color:#ab93e2;
+  	
+
+	position: absolute;
+	left: 50%;
+}
+
+.thirdLine{
+	background-color:#ab93e2;
+  
+
+	position: absolute;
+	left: 50%;
+
+	animation: divblink linear infinite 1s;
+}
+
+.fourthLine{
+	background-color:#f7a0d8;
+  	width:200px;
+  	height:5px;
+	
+	/*border-top-left-radius: 400px;
+	border-top-right-radius: 400px;
+	border-bottom: 0px;*/
+	border-radius: 5px;
+  	box-shadow: 0px 0px 30px 10px #FE14AB,  inset 0 0 8px #f7a0d8;
+
+	position: absolute;
+	left: 50%;
+}
+
+
+
+.headerTitle{
+	text-align: center;
+	
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	
+	z-index: 2;
+}
+
+.headerTitle b span{
+	animation: blink linear infinite 2s;
+}
+
+.headerTitle b span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.headerTitle h2 span{
+	animation: blink linear infinite 4s;
+}
+
+.headerTitle h2 span:nth-of-type(2){
+	animation: blink linear infinite 3.5s;
+}
+
+.dates{
+	display: flex;
+	flex-wrap: wrap;
+
+	color: white;
+}
+
+.introJoinUsHeader{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;*/
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.introJoinUsHeader h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.introJoinUsHeader h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.featuredDealsHeader{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;*/
+	text-align: center;
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.featuredDealsHeader h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.featuredDealsHeader h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.findADealTitle{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;*/
+	text-align: center;
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.findADealTitle h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.findADealTitle h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.addToCalendarTitle{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;
+	text-align: center;*/
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.addToCalendarTitle h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.addToCalendarTitle h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.shareWithAFriendTitle{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;
+	text-align: center;*/
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.shareWithAFriendTitle h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.shareWithAFriendTitle h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+
+
+
+.sponsorsTitle{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;*/
+	text-align: center;
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.sponsorsTitle h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.sponsorsTitle h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+.aboutTitle{
+	/*text-align: center;
+	padding-top: 250px;
+	padding-bottom: 150px;*/
+	text-align: center;
+
+	font-family: boucherie-cursive, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #f4d3e2;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+}
+
+.aboutTitle h3 span{
+	animation: blink linear infinite 2s;
+}
+
+.aboutTitle h3 span:nth-of-type(2){
+	animation: blink linear infinite 3s;
+}
+
+
+@keyframes blink {
+	78% {
+	  color: inherit;
+	  text-shadow: inherit;
+	}
+	79%{
+	   color: #333;
+	}
+	80% {
+	  
+	  text-shadow: none;
+	}
+	81% {
+	  color: inherit;
+	  text-shadow: inherit;
+	}
+	82% {
+	  color: #333;
+	  text-shadow: none;
+	}
+	83% {
+	  color: inherit;
+	  text-shadow: inherit;
+	}
+	92% {
+	  color: #333;
+	  text-shadow: none;
+	}
+	92.5% {
+	  color: inherit;
+	  text-shadow: inherit;
+	}
+  }
+
+  @keyframes divblink {
+	78% {
+		background-color: inherit;
+	  text-shadow: inherit;
+	}
+	79%{
+	   background-color: #333;
+	   box-shadow: 0px 0px 30px 0px #4600E5,  inset 0 0 0px #ab93e2;
+	}
+	80% {
+	  
+	  text-shadow: none;
+	}
+	81% {
+		background-color: inherit;
+	  text-shadow: inherit;
+	}
+	82% {
+		background-color: #333;
+	  text-shadow: none;
+	  box-shadow: 0px 0px 30px 0px #4600E5,  inset 0 0 0px #ab93e2;
+	}
+	83% {
+	  background-color: inherit;
+	  text-shadow: inherit;
+	}
+	92% {
+	background-color: #333;
+	  text-shadow: none;
+	  box-shadow: 0px 0px 30px 0px #4600E5,  inset 0 0 0px #ab93e2;
+	}
+	92.5% {
+	  background-color: inherit;
+	  text-shadow: inherit;
+	}
+  }
+
+  .introSection{
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+  .findADealSection{
+
+  }
+
+  .featuredDealParent{
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+
+  .overlayDeal {
+	transition: .5s ease;
+	background-color: #FE14AB;
+  }
+
+  .overlaySponsor{
+	transition: .5s ease;
+	background-color: #4600E5;
+  }
+
+  .featuredDeal .overlayDeal {
+	opacity: .1;
+	color: transparent;
+  }
+
+  .featuredDeal .overlayDeal:hover {
+	opacity: 1;
+	color: transparent;
+  }
+
+
+
+.One{
+	background-image: url(../images/barkandbeg.jpg);
+	background-size: 100%;
+}
+
+.Two{
+	background-image: url(../images/beautycounter.jpg);
+	background-size: 100%;
+}
+
+.Three{
+	background-image: url(../images/craigbernssalon.jpg);
+	background-size: 100%;
+}
+
+.Four{
+	background-image: url(../images/cyclebar.jpg);
+	background-size: 100%;
+}
+
+.Five{
+	background-image: url(../images/bliss\ boutique.jpg);
+	background-size: 100%;
+}
+
+.Six{
+	background-image: url(../images/MAINSTREETBOUTIQUE-08.png);
+	background-size: 100%;
+}
+
+.Seven{
+	background-image: url(../images/morelandobgyn.jpg);
+	background-size: 100%;
+}
+
+.Eight{
+	background-image: url(../images/well\ house\ 1900.jpg);
+	background-size: 100%;
+}
+
+.Nine{
+	background-image: url(../images/zin.jpg);
+	background-size: 100%;
+}
+
+  .findADealMap{
+	  position: absolute;
+	  left: 50%;
+
+	  background-image: url(../images/LNOMap-01.png);
+	  background-size: 100%;
+  }
+
+ 
+  
+
+  .sponsorsParent{
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .footerItself{
+	background-color: #0E1B2A;
+}
+
+.first{
+	background-image: url(../images/MAINSTREETBOUTIQUE-08.png);
+	background-size: 100%;
+}
+
+.second{
+	background-image: url(../images/JALA.jpg);
+	background-size: 100%;
+}
+
+.third{
+	background-image: url(../images/BWREVERES.jpg);
+	background-size: 100%;
+}
+
+.fourth{
+	background-image: url(../images/craigbernssalon.jpg);
+	background-size: 100%;
+}
+
+.fifth{
+	background-image: url(../images/clearwateroutdoor.jpg);
+	background-size: 100%;
+}
+
+.sixth{
+	background-image: url(../images/BWelementstyle.jpg);
+	background-size: 100%;
+}
+
+.seventh{
+	background-image: url(../images/well\ house\ 1900.jpg);
+	background-size: 100%;
+}
+
+.eight{
+	background-image: url(../images/beautycounter.jpg);
+	background-size: 100%;
+}
+
+.ninth{
+	background-image: url(../images/bwheresthescoop.jpg);
+	background-size: 100%;
+}
+
+.tenth{
+	background-image: url(../images/bwchiroone.jpg);
+	background-size: 100%;
+}
+
+.eleventh{
+	background-image: url(../images/bliss\ boutique.jpg);
+	background-size: 100%;
+}
+
+.twelth{
+	background-image: url(../images/cyclebar.jpg);
+	background-size: 100%;
+}
+
+.thirteenth{
+	background-image: url(../images/BWbelfrekitchen.jpg);
+	background-size: 100%;
+}
+
+.fourteenth{
+	background-image: url(../images/zin.jpg);
+	background-size: 100%;
+}
+
+.delafieldLogoImage{
+	background-image: url(../images/delafieldvectorcoclogo.png);
+	background-size: 100%;
+}
+
+.footerParent{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactInfo{
+	text-align: center;
+	color: white;
+}
+
+.delafieldChamberAddress{
+	color: white;
+}
+
+
+
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px){
+	.container{
+		width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhone 3 / 4 / 5) */
+	}
+
+	h1{
+		font-size: 15px;
+		text-align: center;
+	   }
+
+	h2{
+		font-size: 12px;
+		padding-top: 28px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	h3{
+		font-size: 50px;
+		text-align:center;
+		margin-bottom: 8.035714285714286%;
+
+	}
+
+	h4{
+		font-size: 15px;
+		padding-top: 25px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		color: white;
+		line-height: 30px;
+		width: 51.533742331288344;
+		
+	}
+
+	.firstLine{
+		margin-left: -50px;
+		top: 125px;
+
+		width:100px;
+  		height:2.5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+		border-radius: 5px;
+  		box-shadow: 0px 0px 30px 10px #FE14AB,  inset 0 0 8px #f7a0d8;
+	}
+
+	.secondLine{
+		margin-left: -100px;
+		top: 160px;
+
+		width:200px;
+  		height:2.5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+		border-radius: 5px;
+  		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	}
+
+	.thirdLine{
+		margin-left: -100px;
+		top: 340px;
+
+		width:200px;
+  		height:2.5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+  		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+		border-radius: 5px;
+	}
+
+	.fourthLine{
+		margin-left: -50px;
+		top: 375px;
+
+		width:100px;
+  		height:2.5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+		border-radius: 5px;
+  		box-shadow: 0px 0px 30px 10px #FE14AB,  inset 0 0 8px #f7a0d8;
+	}
+
+
+	.innercircle{
+		width:250px;
+		height:250px;
+		margin-left: -125px;
+		margin-top: 125px;
+	}
+
+	.headerTitle{
+		padding-top: 200px;
+		padding-bottom: 150px;
+
+		font-size: 50px;
+		color: #f4d3e2;
+		text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+	}
+
+	.dates{
+		margin-top: 100px;
+	}
+
+	.octoberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.novemberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.decemberDate{
+		width: 31.288343558282209%;
+	}
+
+
+	.introSection{
+		margin-top: 50px;
+	}
+
+	.introJoinUsHeader{
+		font-size: 60px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.introJoinUsparagraph{
+		
+
+	}
+
+	.introImage{
+		background-color: yellow;
+		width: 34.444444444444445%;
+		height: 100px;
+		margin-left: 3.333333333333333%;
+		margin-right: 8.611111111111111%;
+	}
+
+	.featuredDealsSection{
+		margin-top: 150px;
+		
+
+	}
+
+	.featuredDealsHeader{
+		font-size: 60px;
+	}
+
+	.findADealSection{
+		margin-top: 200px;
+		height:690px;
+	}
+
+	.findADealTitle{
+		font-size: 60px;
+
+	}
+	.findADealMap{
+		position: absolute;
+		left: 50%;
+  
+		background-image: url(../images/LNO\ Mapresponsive-01.png);
+		background-size: 100%;
+		
+	}
+
+	.hover{
+		display: none;
+	}
+
+	.text{
+		color: red;
+		text-align: center;
+		font-size: 20px;
+		line-height: 306px;
+		/*margin-top: -306px;*/
+
+		font-family: semplicitapro, sans-serif;	
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.responsiveDealText{
+		position: absolute;
+		margin-top: -50px;
+		color: #FE14AB;
+		text-align: center;
+		margin-left: 20px;
+		font-size: 20px;
+		line-height: 50px;
+
+		font-family: semplicitapro, sans-serif;	
+		font-weight: 700;
+		font-style: normal;
+	}
+
+
+	.aboutSection{
+		margin-top: 150px;
+	}
+
+	.aboutTitle{
+		
+		font-size: 60px;
+	}
+
+	.aboutParagraph{
+		font-size: 35px;
+		width:82.822085889570552%;
+		margin-left: 8.588957055214724%;
+	}
+
+	.findADealMap{
+		width: 100%;
+		padding-top: 76.923076923076923%;
+		background-color: #ab93e2;
+		margin-top: 6.134969325153374%;
+		margin-left: -50%;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+
+	}
+
+	.featuredDealParent{
+		margin-top: 6.134969325153374%;
+		float: center;
+	}
+
+	.featuredDeal{
+		width: 100%;
+		padding-top: 100%;
+		background-color: #FE14AB;
+		margin-bottom: 7.142857142857143%;
+		text-decoration: none;
+		box-shadow: 0 0 20px #FE14AB, inset 0 0 8px white;
+
+	}
+
+	.overlayDeal{
+		 display: none; 
+	}
+
+
+	.addToCalendarSection{
+		margin-top: 50px;
+		margin-bottom: 300px;
+	}
+	
+	.addToCalendarTitle{
+		font-size: 50px;
+		margin-bottom: 16.071428571428571%;
+		text-align: center;
+	}
+
+	.addeventatc{
+		left: 50%;
+		margin-left: -87px;
+		position: absolute;
+	}
+
+	.calendarIllustration{
+		/* margin-top: 180px; */
+		position: absolute;
+		margin-top: 80px;
+		float: center;
+		left: 50%;
+		margin-left: -56.25px;
+		/* margin-right: 100px; */
+	}
+
+	
+
+	.handle{
+		width: 56.25px;
+		height: 37.5px; /* as the half of the width */
+		background-color: none;
+		border-top-left-radius: 55px;  /* 100px of height + 10px of border */
+		border-top-right-radius: 55px; /* 100px of height + 10px of border */
+		
+		border: 5px solid #ab93e2;
+		border-bottom: 0;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+		margin-left: 28.125px;
+
+	}
+
+	.outerBox{
+		width: 112.5px;
+		height: 75px;
+		background-color: none;
+
+		border: 5px solid #ab93e2;
+		border-radius: 10px;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	}
+
+	.shareWithAFriendTitle{
+		font-size: 50px;
+		margin-bottom: 16.071428571428571%;
+		text-align: center;
+	}
+
+
+.sponsorsSection{
+	margin-top: 250px;
+}
+
+	.sponsorsTitle{
+		font-size: 50px;
+		margin-bottom: 16.071428571428571%;
+	}
+
+	.sponsorsParent{
+		
+	}
+
+	.sponsor{
+		background-color: #2cb2e7;
+		width: 46.428571428571429%;
+		padding-top: 46.428571428571429%;
+		margin-bottom: 7.142857142857143%;
+
+		box-shadow: 0 0 20px #4600E5, inset 0 0 10px #4600E5;
+
+	}
+
+	.first{	
+		margin-right: 7.142857142857143%;
+	}
+
+	
+
+	.third{
+		margin-right: 7.142857142857143%;
+		
+	}
+
+	.fifth{
+		margin-right: 7.142857142857143%;
+		
+	}
+
+
+	.seventh{
+		margin-right: 7.142857142857143%;
+	}
+
+	.ninth{
+		margin-right: 7.142857142857143%;
+
+	}
+
+
+	.eleventh{
+		margin-right: 7.142857142857143%;
+
+	}
+
+	.thirteenth{
+		margin-right: 7.142857142857143%;
+	}
+
+	
+
+	.spaceAboveFooter{
+		height: 130px;
+	}
+
+	.footerItself{
+		height: 200px;
+	}
+
+	.spaceAboveFooterStuff{
+		height: 25px;
+	}
+
+	.delafieldLogoImage{
+		width: 100%;
+		padding-top: 28.86862%;
+		margin-right: 8.588957055214724%;
+	}
+
+	.contactInfo{
+		width: 46.785714285714286%;
+		margin-right: 10.142857142857143%;
+		font-size: 10px;
+		line-height: 20px;
+		padding-top: 1.533742331288344%;
+
+	}
+
+	.delafieldChamberAddress{
+		width: 40.785714285714286%;
+		font-size: 10px;
+		line-height: 20px;
+		padding-top: 1.533742331288344%;
+
+	}
+}
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.container{
+		width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+	}
+
+	h1{
+		font-size: 20px;
+		text-align: center;
+	   }
+
+	h2{
+		font-size: 15px;
+		padding-top: 28px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	h3{
+		font-size: 50px;
+	
+	}
+
+	h4{
+		font-size: 15px;
+		padding-top: 25px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		color: white;
+		line-height: 30px;
+		width: 51.533742331288344;
+		
+	}
+
+	.firstLine{
+		margin-left: -100px;
+		top: 125px;
+
+		width:200px;
+  		height:5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+		border-radius: 5px;
+  		box-shadow: 0px 0px 30px 10px #FE14AB,  inset 0 0 8px #f7a0d8;
+	}
+
+	.secondLine{
+		margin-left: -200px;
+		top: 175px;
+
+		width:400px;
+  		height:5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+		border-radius: 5px;
+  		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	}
+
+	.thirdLine{
+		margin-left: -200px;
+		top: 400px;
+
+		width:400px;
+		height:5px;
+	
+		/*border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		border-bottom: 0px;*/
+  		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+		border-radius: 5px;
+	}
+
+	.fourthLine{
+		margin-left: -100px;
+		top: 450px;
+	}
+
+
+	.innercircle{
+		width:250px;
+		height:250px;
+		margin-left: -125px;
+		margin-top: 125px;
+	}
+
+	.headerTitle{
+		padding-top: 230px;
+		padding-bottom: 150px;
+
+		font-size: 60px;
+		color: #f4d3e2;
+		text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+	}
+
+	.dates{
+		margin-top: 100px;
+	}
+
+	.octoberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.novemberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.decemberDate{
+		width: 31.288343558282209%;
+	}
+
+
+	.introSection{
+		margin-top: 200px;
+	}
+
+	.introJoinUsHeader{
+		width: 100%;
+		font-size: 60px;
+		/* margin-left: 8.611111111111111%; */
+		text-align: center;
+	}
+
+	.introJoinUsparagraph{
+		width: 100%;
+		margin-left: 8.611111111111111%;
+		margin-right: 8.611111111111111%;
+
+
+	}
+
+	.introImage{
+		background-color: yellow;
+		width: 34.444444444444445%;
+		height: 100px;
+		margin-left: 3.333333333333333%;
+		margin-right: 8.611111111111111%;
+	}
+
+	.featuredDealsSection{
+		margin-top: 200px;
+		margin-left: 8.611111111111111%;
+		margin-right: 8.611111111111111%;
+
+	}
+
+	.featuredDealsHeader{
+		font-size: 60px;
+	}
+
+	.featuredDeal .overlayDeal {
+	opacity: .1;
+	color: transparent;
+  }
+
+	.findADealSection{
+		margin-top: 200px;
+		height:690px;
+	}
+
+	.findADealTitle{
+		font-size: 60px;
+
+	}
+
+	.findADealMap{
+		position: absolute;
+		left: 50%;
+  
+		background-image: url(../images/LNO\ Mapresponsive-01.png);
+		background-size: 100%;
+	}
+
+
+	.text{
+		color: red;
+		text-align: center;
+		font-size: 10px;
+		line-height: 306px;
+		/*margin-top: -306px;*/
+
+		font-family: semplicitapro, sans-serif;	
+		font-weight: 400;
+		font-style: normal;
+	}
+
+
+
+	  .aboutSection{
+		margin-top: 200px;
+	  }
+
+	.aboutTitle{
+		
+		font-size: 60px;
+	}
+
+	.aboutParagraph{
+		font-size: 35px;
+		width:82.822085889570552%;
+		margin-left: 8.588957055214724%;
+	}
+
+	.findADealMap{
+		width: 82.777777777777778%;
+		padding-top: 60.138888888888889%;
+		background-color: #ab93e2;
+		margin-top: 6.134969325153374%;
+		margin-left: -41.388888888888889%;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+
+	}
+
+	.hover{
+		position: absolute;
+		background-color: transparent;
+		width: 100px;
+		height: 70px;
+		font-size: 15px;
+		color: transparent;
+		text-shadow: none;
+		font-family: semplicitapro, sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		text-decoration: none;
+		
+	}
+
+	/* .hover:hover{
+		position: absolute;
+		background-color: #120F26;
+		box-shadow: 0px 0px 10px 10px #4600E5;
+
+		width: 100px;
+		height: 60px;
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+		
+	} */
+
+	.r{
+		top: 87px;
+		left: 30px;
+	}
+
+	.rr{
+		top: 160px;
+		left: 135px;
+	}
+
+	.rrr{
+		top: 190px;
+		left: 30px;
+	}
+
+	.rrrr{
+		top: 290px;
+		left: 180px;
+	}
+
+	.rrrrr{
+		top: 480px;
+		left: 135px;
+	}
+
+	.rrrrrr{
+		top: 500px;
+		left: 425px;
+	}
+
+	.rrrrrrr{
+		top: 415px;
+		left: 425px;
+	}
+
+	.rrrrrrrr{
+		top: 290px;
+		left: 425px;
+	}
+
+	.rrrrrrrrr{
+		top: 290px;
+		left: 500px;
+	}
+
+	.rrrrrrrrrr{
+		top: 290px;
+		left: 580px;
+	}
+
+	.rrrrrrrrrrr{
+		top: 450px;
+		left: 575px;
+	}
+
+	.rrrrrrrrrrrr{
+		top: 170px;
+		left: 560px;
+
+	}
+
+	.rrrrrrrrrrrrr{
+		top: 205px;
+		left: 720px;
+	}
+
+	.rrrrrrrrrrrrrr{
+		top: 100px;
+		left: 670px;
+	}
+
+	.featuredDealParent{
+		margin-top: 6.134969325153374%;
+		float: center;
+	}
+
+	.featuredDeal{
+		width: 25.833333333333333%;
+		padding-top: 25.833333333333333%;
+		background-color: #FE14AB;
+		margin-bottom: 3.067484662576687%;
+		text-decoration: none;
+		box-shadow: 0 0 20px #FE14AB, inset 0 0 8px white;
+
+	}
+
+
+	.responsiveDealText{
+		position: absolute;
+		margin-top: -20px;
+		color: #FE14AB;
+		text-align: center;
+		margin-left: 25px;
+		margin-top: -35px;
+
+		font-size: 10px;
+		line-height: 50px;
+
+		font-family: semplicitapro, sans-serif;	
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.overlayDeal{
+		display: none;
+	}
+
+
+	.One{
+		margin-left: 8.611111111111111%; 
+		margin-right: 4.026845637583893%;
+	}
+
+	.Two{
+		margin-right: 3.333333333333333%;
+	}
+
+	.Four{
+		margin-left: 8.611111111111111%;
+		margin-right: 3.333333333333333%;
+	}
+
+	.Five{
+		margin-right: 3.333333333333333%;
+	}
+
+	.Seven{
+		margin-left: 8.611111111111111%;
+		margin-right: 3.333333333333333%;
+	}
+
+	.Eight{
+		margin-right: 3.3333333333333337%;
+	}
+
+	.addToCalendarSection{
+		margin-top: 200px;
+		margin-bottom: 200px;
+		margin-left: 8.611111111111111%;
+		margin-right: 8.611111111111111%;
+
+
+	}
+	
+	.addToCalendarTitle{
+		font-size: 50px;
+		margin-bottom: 55px;
+		/* margin-left: 8.611111111111111%; */
+	}
+
+	.addeventatc{
+		margin-left: 75px;
+	}
+
+	.calendarIllustration{
+		margin-top: -180px;
+		margin-right: 8.611111111111111%;
+	}
+
+	.calendarIllustration{
+		float: right;
+	   }
+
+	.handle{
+		width: 112.5px;
+		height: 75px; /* as the half of the width */
+		background-color: none;
+		border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+		border-top-right-radius: 110px; /* 100px of height + 10px of border */
+		
+		border: 5px solid #ab93e2;
+		border-bottom: 0;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+		margin-left: 56.25px;
+
+	}
+
+	.outerBox{
+		width: 225px;
+		height: 150px;
+		background-color: none;
+
+		border: 5px solid #ab93e2;
+		border-radius: 10px;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	}
+
+	.shareWithAFriedSection{
+		margin-top: 200px;
+		margin-bottom: 200px;
+		margin-left: 8.611111111111111%;
+		margin-right: 8.611111111111111%;
+
+
+	}
+
+	.shareWithAFriendTitle{
+		font-size: 50px;
+		margin-bottom: 55px;
+		/* margin-left: 8.611111111111111%; */
+	}
+
+	.sponsorsTitle{
+		font-size: 50px;
+		margin-bottom: 6.134969325153374%;
+	}
+
+	.sponsorsParent{
+		margin-left: 8.611111111111111%;
+		margin-right: 8.611111111111111%;
+
+	}
+
+	.sponsor{
+		background-color: #2cb2e7;
+		width: 16.778523489932886%;
+		padding-top: 16.778523489932886%;
+		margin-bottom: 3.067484662576687%;
+		box-shadow: 0 0 20px #4600E5, inset 0 0 10px #4600E5;
+
+	}
+
+	.first{	
+		margin-right: 3.333333333333333%;
+	}
+
+	.second{
+		margin-right: 3.333333333333333%;
+		
+	}
+
+	.third{
+		margin-right: 3.333333333333333%;
+		
+	}
+
+	.fourth{
+		margin-right: 3.333333333333333%;
+		
+	}
+
+	.sixth{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.seventh{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.eight{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.ninth{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.eleventh{
+		margin-right: 3.333333333333333%;
+	}
+
+	.twelth{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.thirteenth{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.fourteenth{
+		margin-right: 3.333333333333333%;
+
+	}
+
+	.spaceAboveFooter{
+		height: 130px;
+	}
+
+	.footerItself{
+		height: 150px;
+	}
+
+	.spaceAboveFooterStuff{
+		width: 100%;
+		padding-top: 3.472222222222222%;
+	}
+
+	.delafieldLogoImage{
+		width: 25.277777777777778%;
+		padding-top: 7.527777777777778%;
+		margin-right: 8.588957055214724%;
+		margin-left: 8.611111111111111%;
+
+	}
+
+	.contactInfo{
+		margin-right: 8.588957055214724%;
+		font-size: 15px;
+		line-height: 20px;
+		padding-top: 1.533742331288344%;
+
+	}
+
+	.delafieldChamberAddress{
+		font-size: 15px;
+		line-height: 20px;
+		padding-top: 1.533742331288344%;
+
+	}
+}
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1025px){
+	.container{
+		width:978px;
+	
+	}
+
+	h1{
+		font-size: 25px;
+		text-align: center;
+	   }
+
+	h2{
+		font-size: 20px;
+		padding-top: 28px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	h3{
+	
+	
+	}
+
+	h4{
+		font-size: 20px;
+		padding-top: 28px;
+		color: white;
+		line-height: 30px;
+
+		font-family: semplicitapro, sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		
+	}
+
+	h5{
+		font-size: 10px;
+		font-family: semplicitapro, sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.firstLine{
+		margin-left: -100px;
+		top: 125px;
+
+		width:200px;
+  	height:5px;
+	
+	/*border-top-left-radius: 400px;
+	border-top-right-radius: 400px;
+	border-bottom: 0px;*/
+	border-radius: 5px;
+  	box-shadow: 0px 0px 30px 10px #FE14AB,  inset 0 0 8px #f7a0d8;
+	}
+
+	.secondLine{
+		margin-left: -200px;
+		top: 175px;
+		width:400px;
+  	height:5px;
+	
+	/*border-top-left-radius: 400px;
+	border-top-right-radius: 400px;
+	border-bottom: 0px;*/
+  	box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	border-radius: 5px;
+	}
+
+	.thirdLine{
+		margin-left: -200px;
+		top: 450px;
+		width:400px;
+  	height:5px;
+	
+	/*border-top-left-radius: 400px;
+	border-top-right-radius: 400px;
+	border-bottom: 0px;*/
+  	box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	border-radius: 5px;
+	}
+
+	.fourthLine{
+		margin-left: -100px;
+		top: 500px;
+	}
+
+
+	.innercircle{
+		width:250px;
+		height:250px;
+		margin-left: -125px;
+		margin-top: 125px;
+	}
+
+	.headerTitle{
+		padding-top: 230px;
+		padding-bottom: 150px;
+
+		font-size: 90px;
+		color: #f4d3e2;
+		text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #FE14AB, 0 0 0.5em #FE14AB, 0 0 0.1em #FE14AB, 0 10px 3px #000;
+
+	}
+
+	.dates{
+		margin-top: 100px;
+	}
+
+	.octoberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.novemberDate{
+		width: 31.288343558282209%;
+		margin-right: 3.067484662576687%;
+	}
+
+	.decemberDate{
+		width: 31.288343558282209%;
+	}
+
+	.introSection{
+		margin-top: 200px;
+	}
+
+	.introJoinUsHeader{
+		width: 100%;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.introJoinUsparagraph{
+		width:82.822085889570552%;
+		margin-left: 8.588957055214724%;
+	}
+
+	.introImage{
+		background-color: yellow;
+		width: 39.877300613496933%;
+		height: 100px;
+		margin-left: 3.067484662576687%;
+
+	}
+
+	.featuredDealsSection{
+		margin-top: 200px;
+	}
+
+	.featuredDealsHeader{
+		font-size: 60px;
+	}
+
+	.findADealSection{
+		margin-top: 200px;
+		height:690px;
+	}
+
+	.findADealTitle{
+		font-size: 60px;
+
+	}
+
+	.responsiveDealText{
+		display: none;
+	}
+
+	.overlayDeal:hover{
+		background-color: #FE14AB;
+	}
+
+	.text{
+		color: transparent;
+		text-align: center;
+		font-size: 25px;
+		line-height: 306px;
+		margin-top: -306px;
+
+		font-family: semplicitapro, sans-serif;	
+		font-weight: 400;
+		font-style: normal;
+	  }
+
+	  .text:hover{
+		color: white;
+		text-align: center;
+		font-size: 25px;
+		line-height: 306px;
+		margin-top: -306px;
+	  }
+
+	  .aboutSection{
+		margin-top: 200px;
+	  }
+
+	.aboutTitle{
+		
+		font-size: 60px;
+	}
+
+	.aboutParagraph{
+		font-size: 35px;
+		width:82.822085889570552%;
+		margin-left: 8.588957055214724%;
+	}
+
+	.findADealMap{
+		width: 702px;
+		padding-top: 540px;
+		background-color: #ab93e2;
+		margin-top: 6.134969325153374%;
+		margin-left: -351px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+
+	}
+
+	.hover{
+		position: absolute;
+		background-color: transparent;
+		width: 60px;
+		height: 70px;
+		font-size: 10px;
+		color: transparent;
+		text-shadow: none;
+		font-family: semplicitapro, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.hover:hover{
+		position: absolute;
+		background-color: #120F26;
+		box-shadow: 0px 0px 10px 10px #4600E5;
+
+		width: 60px;
+		height: 60px;
+		font-size: 15px;
+		color: white;
+		text-decoration: none;
+		
+	}
+
+	.r{
+		top: 85px;
+		left: 40px;
+	}
+
+	.rr{
+		top: 80px;
+		left: 130px;
+	}
+
+	.rrr{
+		top: 180px;
+		left: 40px;
+	}
+
+	.rrrr{
+		top: 280px;
+		left: 170px;
+	}
+
+	.rrrrr{
+		top: 445px;
+		left: 130px;
+	}
+
+	.rrrrrr{
+		top: 445px;
+		left: 380px;
+	}
+
+	.rrrrrrr{
+		top: 380px;
+		left: 380px;
+	}
+
+	.rrrrrrrr{
+		top: 280px;
+		left: 380px;
+	}
+
+	.rrrrrrrrr{
+		top: 280px;
+		left: 445px;
+	}
+
+	.rrrrrrrrrr{
+		top: 280px;
+		left: 500px;
+	}
+
+	.rrrrrrrrrrr{
+		top: 340px;
+		left: 500px;
+	}
+
+	.rrrrrrrrrrrr{
+		top: 180px;
+		left: 500px;
+	}
+
+	.rrrrrrrrrrrrr{
+		top: 180px;
+		left: 600px;
+	}
+
+	.rrrrrrrrrrrrrr{
+		top: 100px;
+		left: 595px;
+	}
+
+	.featuredDealParent{
+		margin-top: 6.134969325153374%;
+	}
+
+	.featuredDeal{
+		width: 306px;
+		padding-top: 306px;
+		background-color: #FE14AB;
+		margin-bottom: 3.067484662576687%;
+		text-decoration: none;
+		box-shadow: 0 0 15px #FE14AB, inset 0 0 8px white;
+		
+	}
+
+	.featuredDeal:hover{
+		box-shadow: 0 0 40px #FE14AB, inset 0 0 14px white;
+		transition: .5s ease;
+		background-color: #FE14AB;
+		opacity: 1;
+		
+	}
+
+	.One{
+		margin-right: 3.067484662576687%;
+	}
+
+	.Two{
+		margin-right: 3.067484662576687%;
+	}
+
+	.Four{
+		margin-right: 3.067484662576687%;
+	}
+
+	.Five{
+		margin-right: 3.067484662576687%;
+	}
+
+	.Seven{
+		margin-right: 3.067484662576687%;
+	}
+
+	.Eight{
+		margin-right: 3.067484662576687%;
+	}
+
+	.addToCalendarSection{
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+	
+	.addToCalendarTitle{
+		font-size: 60px;
+		margin-bottom: 55px;
+		margin-left: 100px;
+	}
+
+	.addeventatc{
+		left: 15.337423312883436%;
+		margin-left: 50px;
+	}
+
+	.calendarIllustration{
+		margin-top: -250px;
+		margin-right: 100px;
+	}
+
+	.calendarIllustration{
+		float: right;
+	   }
+
+	.handle{
+		width: 150px;
+		height: 100px; /* as the half of the width */
+		background-color: none;
+		border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+		border-top-right-radius: 110px; /* 100px of height + 10px of border */
+		
+		border: 5px solid #ab93e2;
+		border-bottom: 0;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+		margin-left: 75px;
+	
+	}
+	
+	.outerBox{
+		width: 300px;
+		height: 200px;
+		background-color: none;
+	
+		border: 5px solid #ab93e2;
+		border-radius: 10px;
+		box-shadow: 0px 0px 30px 10px #4600E5,  inset 0 0 8px #ab93e2;
+	}
+
+	.shareWithAFriendTitle{
+		font-size: 60px;
+		margin-bottom: 55px;
+		margin-left: 100px;
+	}
+
+	
+	.sponsorsTitle{
+		font-size: 60px;
+		margin-bottom: 6.134969325153374%;
+	}
+
+	.sponsor{
+		background-color: #2cb2e7;
+		width: 14.110429447852761%;
+		padding-top: 14.110429447852761%;
+		margin-bottom: 3.067484662576687%;
+
+		box-shadow: 0 0 10px #4600E5, inset 0 0 5px #4600E5;
+	}
+
+	.sponsor:hover{
+		box-shadow: 0 0 20px #4600E5, inset 0 0 10px #4600E5;
+		transition: .5s ease;
+	}
+
+	.first{
+		margin-right: 3.067484662576687%;
+	}
+
+	.second{
+		margin-right: 3.067484662576687%;
+	}
+
+	.third{
+		margin-right: 3.067484662576687%;
+	}
+
+	.fourth{
+		margin-right: 3.067484662576687%;
+	}
+
+	.fifth{
+		margin-right: 3.067484662576687%;
+	}
+
+	
+	.seventh{
+		margin-right: 3.067484662576687%;
+	}
+
+	.eight{
+		margin-right: 3.067484662576687%;
+	}
+
+	.ninth{
+		margin-right: 3.067484662576687%;
+	}
+
+	.tenth{
+		margin-right: 3.067484662576687%;
+	}
+
+	.eleventh{
+		margin-right: 3.067484662576687%;
+	}
+
+	.thirteenth{
+		margin-right: 3.067484662576687%;
+	}
+
+	.fourteenth{
+		margin-right: 3.067484662576687%;
+	}
+
+	.spaceAboveFooter{
+		height: 130px;
+	}
+
+	.footerItself{
+		height: 150px;
+	}
+
+	.spaceAboveFooterStuff{
+		width: 100%;
+		padding-top: 1.533742331288344%;
+	}
+
+	.delafieldLogoImage{
+		width: 31.288343558282209%;
+		padding-top: 8.486707566462168%;
+		margin-right: 8.588957055214724%;
+	}
+
+	.contactInfo{
+		margin-right: 8.588957055214724%;
+		font-size: 20px;
+		line-height: 40px;
+		padding-top: 1.533742331288344%;
+
+	}
+
+	.delafieldChamberAddress{
+		font-size: 20px;
+		line-height: 40px;
+		padding-top: 1.533742331288344%;
+
+	}
+
+}
